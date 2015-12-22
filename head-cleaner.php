@@ -3217,7 +3217,11 @@ jQuery(function($){
 			// get the thumbnail
 			$thumb = '';
 			if ( function_exists('has_post_thumbnail') && has_post_thumbnail($id) ) {
-				$thumb = preg_replace("/^.*['\"](https?:\/\/[^'\"]*)['\"].*/i","$1",get_the_post_thumbnail($id));
+				if ($this->wp44) {
+					$thumb = get_the_post_thumbnail_url($id);
+				} else {
+					$thumb = preg_replace("/^.*['\"](https?:\/\/[^'\"]*)['\"].*/i", "$1", get_the_post_thumbnail($id));
+				}
 			} else {
 				$attachments = get_children(array(
 					'post_parent' => $id ,
