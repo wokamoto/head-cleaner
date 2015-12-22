@@ -27,7 +27,7 @@ class wokController {
 	var $admin_option, $admin_action, $admin_hook;
 	var $note, $error;
 	var $charset;
-	var $wp25, $wp26, $wp27, $wp28, $wp29, $wp30, $wp31, $wp32, $wp33, $wp34;
+	var $wp25, $wp26, $wp27, $wp28, $wp29, $wp30, $wp31, $wp32, $wp33, $wp34, $wp44;
 	var $inline_js;
 
 	var $jquery_js  = 'includes/js/jquery-1.4.2.min.js';
@@ -52,6 +52,7 @@ class wokController {
 		$this->wp32    = version_compare($wp_version, "3.2", ">=");
 		$this->wp33    = version_compare($wp_version, "3.3", ">=");
 		$this->wp34    = version_compare($wp_version, "3.4", ">=");
+		$this->wp44    = version_compare($wp_version, "4.4", ">=");
 
 		$this->setPluginDir($file);
 		$this->loadTextdomain();
