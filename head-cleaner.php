@@ -3230,7 +3230,7 @@ jQuery(function($){
 					'orderby' => 'menu_order' ,
 					));
 				foreach ($attachments as $attachment) {
-					$image_src = wp_get_attachment_image_src($attachment->ID);
+					$image_src = wp_get_attachment_image_src($attachment->ID, 'full');
 					$thumb = (isset($image_src[0]) ? $image_src[0] : '');
 					unset($image_src);
 					break;
