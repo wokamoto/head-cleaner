@@ -2892,6 +2892,9 @@ jQuery(function($){
 			? (array) $wp_filter[$tag]
 			: array());
 		foreach ($active_filters as $priority => $filters) {
+			if (!is_array($filters)) {
+				continue;
+			}
 			foreach ($filters as $filter) {
 				$function_name = $this->_get_function_name($filter['function']);
 				if ( $this->function_enabled($function_name) ) {
