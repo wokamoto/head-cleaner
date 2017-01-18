@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9S8AJ
 Tags: head, header, footer, javascript, css, optimization, minified, performance, facebook, OGP
 Requires at least: 2.5
 Tested up to: 4.4
-Stable tag: 1.4.3
+Stable tag: 1.4.4
 
 Cleaning tags from your WordPress header and footer.
 
@@ -94,9 +94,12 @@ Head Cleaner Ver.1.1.5 includes 'php_browscap.ini' .
 
 == Changelog == 
 
+**1.4.4 - Janualy 18, 2017**
+Support WordPress 4.7
+
 **1.4.3 - December 22, 2015**
 Support WordPress 4.4.
-Thx [msng]("http://msng.info/")
+Thx [msng](http://www.msng.info/)
 
 **1.4.2.12 - August 29, 2014**
 Minor bug fix.

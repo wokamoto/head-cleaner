@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Head Cleaner
-Version: 1.4.3
+Version: 1.4.4
 Plugin URI: http://wppluginsj.sourceforge.jp/head-cleaner/
 Description: Cleaning tags from your WordPress header and footer.
 Author: wokamoto
@@ -12,7 +12,7 @@ Domain Path: /languages/
 License:
  Released under the GPL license
   http://www.gnu.org/copyleft/gpl.html
-  Copyright 2009 - 2015 wokamoto (email : wokamoto1973@gmail.com)
+  Copyright 2009 - 2017 wokamoto (email : wokamoto1973@gmail.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
